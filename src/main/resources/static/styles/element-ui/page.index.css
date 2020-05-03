@@ -13,8 +13,6 @@
 .el-table td, .el-table th{
     padding: 6px 0;
 }
-/*好像不管用*/
-.el-table__empty-block{
-    min-height: 42px;
-    text-align: center;
-}
+/*暂无数据的样式*/
+.el-table__empty-block {min-height:41px;}
+.el-table__empty-text{line-height: 41px;width: 50%;color: #909399;}

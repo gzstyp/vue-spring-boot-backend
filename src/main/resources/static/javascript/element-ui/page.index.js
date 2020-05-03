@@ -4,7 +4,7 @@
  * @QQ号码 444141300
  * @官网 http://www.fwtai.com
 */
-new Vue({
+var vm = new Vue({
     fields : {
         name : '',
         gender : '',
@@ -20,12 +20,14 @@ new Vue({
                 phoneNum : '',
                 birthday : ''
             },
-            tableData : [{//表格的数据
-                name : '王小虎',
-                gender : '男',
-                phoneNum : '13765121695',
-                birthday : '2016-05-02'
-            }],
+            tableData : [ //表格的数据
+                {
+                    name : '引路者',
+                    gender : '1',
+                    phoneNum : '13765121695',
+                    birthday : '2016-05-02'
+                }
+            ],
             options: [{
                 value : '',
                 label : '选择'
